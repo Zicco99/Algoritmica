@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct _edges {
+  int num_edge;
+  int* edge;
+} edge;
+
+void insert(edge** grafo){
+int n;
+scanf("%d",&n);
+grafo* =(edge*) malloc(n*sizeof(edge));
+
+
+
+
+
+
+
+
+}
+
+
+int main(){
+edge* grafo;
+insert(grafo);
+}

@@ -1,0 +1,27 @@
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c: In function 'crealistino':
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:6:9: error: 'n' redeclared as different kind of symbol
+     int n;
+         ^
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:5:36: note: previous definition of 'n' was here
+ void crealistino(int prezzi[],int* n){
+                                    ^
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:10:9: error: 'a' undeclared (first use in this function)
+         a = (int *)malloc(n * sizeof(int));
+         ^
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:10:9: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c: In function 'main':
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:53:17: warning: passing argument 1 of 'crealistino' from incompatible pointer type [-Wincompatible-pointer-types]
+     crealistino(&prezzi,&lun);
+                 ^
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:5:6: note: expected 'int *' but argument is of type 'int **'
+ void crealistino(int prezzi[],int* n){
+      ^
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:55:8: error: 'n' undeclared (first use in this function)
+     if(n>0){//Bar is at least 1 inch long
+        ^
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:57:45: error: 'prices' undeclared (first use in this function)
+         int maxRevenue = bottomUp_MaxProfit(prices,n,&optimalSize);
+                                             ^
+C:\Users\Administrator\Desktop\ALGO\Lezione 9\BarreACCIAIO.c:63:5: error: expected declaration or statement at end of input
+     }
+     ^
